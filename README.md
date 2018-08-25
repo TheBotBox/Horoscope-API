@@ -85,7 +85,7 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 `String sunsign` is the same sunsign for which request has been made;  
 `String date` is the duration for which request has been made.  
 
-<b> In case of no internet connection, callback will come in `onErrorObtained()` with erromsg  "No internet connection"
+<b> In case of no internet connection, callback will come in `onErrorObtained()` with errormsg  "No internet connection"
 
 
 #   To-Do's
