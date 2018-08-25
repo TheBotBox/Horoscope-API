@@ -104,5 +104,6 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 </ul>
 
 #   License  
-MIT License
+![alt tag](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 
