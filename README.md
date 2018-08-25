@@ -4,13 +4,11 @@ Simple Java API to get the horoscope according to the sunsign
 ![alt tag](https://user-images.githubusercontent.com/41512314/44621973-720cbe80-a8cd-11e8-80b3-a24b711dd1f4.png)
 
 #  Contents 
-<ul>
-<li>Features </li>
-<li>Implementation </li>
-<li>API Usage </li>
-<li>To-dos </li>
-<li>License </li>
-</ul>
+**[Features](#features)**  
+**[Implementation](#implementation)**   
+**[API Usage](#api-usage)**  
+**[To-dos](#to-dos)**  
+**[License](#license)** 
 
 # Features
 <ul>
@@ -96,7 +94,7 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 <b> In case of no internet connection, callback will come in `onErrorObtained()` with errormsg  "No internet connection"
 
 
-#   To-Do's
+#   To-Dos
 <ul>
 <li>Facts About a Sunsign  </li>
 <li>Practical Side of a Sunsign  </li>
