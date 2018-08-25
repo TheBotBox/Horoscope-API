@@ -14,7 +14,7 @@ Simple Java API to get the horoscope according to the sunsign
 
 # Features
 <ul>
-<li>Get Horoscope based on sunsign for all the zodiacs</li>
+<li>Get Horoscope based on sunsign</li>
 <li>Get Horoscope for today, weekly, monthly & yearly</li>
 </ul>
 
@@ -68,6 +68,12 @@ calling both the above function is totally optional and default value for both i
 
 <b> Handling Response </b>
 ```
+Horoscope hGemini = new Horoscope.Zodiac(MainActivity.this)
+                        .requestSunSign(SUNSIGN.GEMINI)
+                           .requestDuration(DURATION.TODAY)
+                            .showLoader(true)                            
+                              .isDebuggable(true)
+                               .fetchHoroscope();
  HorologyController cGemini = new HorologyController(new Response() {
                         @Override
                         public void onResponseObtained(Zodiac zodiac) {
@@ -85,7 +91,7 @@ calling both the above function is totally optional and default value for both i
 ```  
 where, `String horoscpe` is the response from the server correspoding to the sunsign requested;  
 `String sunsign` is the same sunsign for which request has been made;  
-`String date` is the duration for which request has been made.  
+`String date` is the same duration for which request has been made.  
 
 <b> In case of no internet connection, callback will come in `onErrorObtained()` with errormsg  "No internet connection"
 
@@ -97,4 +103,6 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 <li>Astrological Perspective of a Sunsign</li>
 </ul>
 
-#   License
+#   License  
+MIT License
+
