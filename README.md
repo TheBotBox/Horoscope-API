@@ -64,6 +64,29 @@ Get duration from `DURATION.TODAY` `DURATION.TOMORROW` `DURATION.WEEK` `DURATION
 
 calling both the above function is totally optional and default value for both is `false`  
 
+<b> Handling Response </b>
+```
+ HorologyController cGemini = new HorologyController(new Response() {
+                        @Override
+                        public void onResponseObtained(Zodiac zodiac) {
+                           String horoscope = zodiac.getHoroscope();
+                           String sunsign = zodiac.getSunSign();
+                           String date = getDate();
+                        }
+
+                        @Override
+                        public void onErrorObtained(String errormsg) {
+                                                   }
+                    });
+                    cGemini.requestConstellations(hGemini);
+
+```  
+where, `String horoscpe` is the response from the server correspoding to the sunsign requested;  
+`String sunsign` is the same sunsign for which request has been made;  
+`String date` is the duration for which request has been made.
+
+
+
 #   To-Do's
 <ul>
 <li>Facts About a Sunsign  </li>
