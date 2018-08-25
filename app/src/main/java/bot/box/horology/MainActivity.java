@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.layoutAries:
                     System.out.println("here is the aries 01");
                     Horoscope hAries = new Horoscope.Zodiac(MainActivity.this)
-                            .showLoader(true)
+                            .showLoader(true).showLoader(true)
                             .requestSunSign(SUNSIGN.AQUARIUS).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cAries = new HorologyController(new Response() {
                         @Override
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.layoutTaurus:
-                    Horoscope hTaurus = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hTaurus = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.TAURUS).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cTaurus = new HorologyController(new Response() {
                         @Override
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutGemini:
-                    Horoscope hGemini = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hGemini = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.GEMINI).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cGemini = new HorologyController(new Response() {
                         @Override
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutCancer:
-                    Horoscope hCancer = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hCancer = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.CANCER).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cCancer = new HorologyController(new Response() {
                         @Override
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutLeo:
-                    Horoscope hLeo = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hLeo = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.LEO).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cLeo = new HorologyController(new Response() {
                         @Override
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutVirgo:
-                    Horoscope hVirgo = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hVirgo = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.VIRGO).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cVirgo = new HorologyController(new Response() {
                         @Override
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutLibra:
-                    Horoscope hLibra = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hLibra = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.LIBRA).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cLibra = new HorologyController(new Response() {
                         @Override
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutScorpio:
-                    Horoscope hScorpio = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hScorpio = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.SCORPIO).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cScorpio = new HorologyController(new Response() {
                         @Override
@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutSagittarius:
-                    Horoscope hSagittarius = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hSagittarius = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.SAGITTARIUS).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cSagittarius = new HorologyController(new Response() {
                         @Override
@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutCapricorn:
-                    Horoscope hCapricorn = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hCapricorn = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.CAPRICORN).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cCapricorn = new HorologyController(new Response() {
                         @Override
@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutAquarius:
-                    Horoscope hAquarius = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hAquarius = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.AQUARIUS).requestDuration(DURATION.TODAY).
                                     isDebuggable(true).fetchHoroscope();
                     HorologyController cAquarius = new HorologyController(new Response() {
@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 case R.id.layoutPisces:
-                    Horoscope hPisces = new Horoscope.Zodiac(MainActivity.this)
+                    Horoscope hPisces = new Horoscope.Zodiac(MainActivity.this).showLoader(true)
                             .requestSunSign(SUNSIGN.PISCES).requestDuration(DURATION.TODAY).isDebuggable(true).fetchHoroscope();
                     HorologyController cPisces = new HorologyController(new Response() {
                         @Override
