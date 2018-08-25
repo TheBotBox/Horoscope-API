@@ -83,8 +83,9 @@ calling both the above function is totally optional and default value for both i
 ```  
 where, `String horoscpe` is the response from the server correspoding to the sunsign requested;  
 `String sunsign` is the same sunsign for which request has been made;  
-`String date` is the duration for which request has been made.
+`String date` is the duration for which request has been made.  
 
+<b> In case of no internet connection, callback will come in `onErrorObtained()` with erromsg  "No internet connection"
 
 
 #   To-Do's
