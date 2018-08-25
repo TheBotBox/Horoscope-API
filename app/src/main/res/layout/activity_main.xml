@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+        <!--layout 1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--aries-->
+                <LinearLayout
+                    android:id="@+id/layoutAries"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Aries"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_aries"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Aries"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Aries"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Aries"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--taurus-->
+                <LinearLayout
+                    android:id="@+id/layoutTaurus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Taurus"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_taurus"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Taurus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Taurus"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Taurus"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--gemini-->
+                <LinearLayout
+                    android:id="@+id/layoutGemini"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Gemini"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_gemini"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Gemini"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Gemini"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Gemini"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--layout 2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--cancer-->
+                <LinearLayout
+                    android:id="@+id/layoutCancer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Cancer"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_cancer"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Cancer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Cancer"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Cancer"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--leo-->
+                <LinearLayout
+                    android:id="@+id/layoutLeo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Leo"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_leo"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Leo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Leo"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Leo"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--virgo-->
+                <LinearLayout
+                    android:id="@+id/layoutVirgo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Virgo"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_virgo"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Virgo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Virgo"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Virgo"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--layout 3-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--Libra-->
+                <LinearLayout
+                    android:id="@+id/layoutLibra"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Libra"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_libra"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Libra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Libra"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Libra"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--scorpio-->
+                <LinearLayout
+                    android:id="@+id/layoutScorpio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Scorpio"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_scorpio"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Scorpio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Scorpio"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Scorpio"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--sagittarius-->
+                <LinearLayout
+                    android:id="@+id/layoutSagittarius"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Sagittarius"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_sagittarius"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Sagittarius"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Sagittarius"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Sagittarius"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--layout 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--Capricorn-->
+                <LinearLayout
+                    android:id="@+id/layoutCapricorn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Capricorn"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_capricorn"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Capricorn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Capricorn"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Capricorn"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--Aquarius-->
+                <LinearLayout
+                    android:id="@+id/layoutAquarius"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Aquarius"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_aquarius"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Aquarius"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Aquarius"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Aquarius"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <!--Pisces-->
+                <LinearLayout
+                    android:id="@+id/layoutPisces"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pressed">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/iv_Pisces"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/h_pisces"
+                            android:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tv_Pisces"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/iv_Pisces"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="4dp"
+                            android:text="Pisces"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
