@@ -310,9 +310,3 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-//readme.md
-//Pt 1. - only call from pre defiened constants. Any other param will always give empty horoscope. SO be careful
-//Pt 2. - if internet is not connect, call back will come in onErrorObtained with erromsg - "No internet connection"
-//Pt 3. - In requestDuration() function, only one of these constants should be called else will throw exception.
-//Pt 4. - by default isDebug is false
-//Pt 5. - by default isShowLoader is false
