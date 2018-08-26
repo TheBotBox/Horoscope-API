@@ -2,13 +2,16 @@
 Simple Java API to get the horoscope according to the sunsign
 
 ![alt tag](https://user-images.githubusercontent.com/41512314/44621973-720cbe80-a8cd-11e8-80b3-a24b711dd1f4.png)
+  
 
 #  Contents 
 **[Features](#features)**  
 **[Implementation](#implementation)**   
 **[API Usage](#api-usage)**  
-**[To-dos](#to-dos)**  
-**[License](#license)** 
+**[To-dos](#to-dos)**   
+**[Get It On Play Store](#get-it-on-play-store)**    
+**[Credits](#credits)**   
+**[License](#license)**    
 
 # Features
 <ul>
@@ -51,10 +54,10 @@ Horoscope hGemini = new Horoscope.Zodiac(MainActivity.this)
 ```  
 <b> Mandatory Functions</b>  
 `requestSunSign(SUNSIGN)`   
-Get all the zodiacs from `SUNSIGN.ARIES` `SUNSIGN.TAURUS` `SUNSIGN.GEMINI` `SUNSIGN.CANCER` ...  `SUNSIGN.PISCES`  
+Access all the zodiacs like this `SUNSIGN.ARIES` `SUNSIGN.TAURUS` `SUNSIGN.GEMINI` `SUNSIGN.CANCER` ...  `SUNSIGN.PISCES`  
 
 `requestDuration(DURATION)`  
-Get duration from `DURATION.TODAY` `DURATION.TOMORROW` `DURATION.WEEK` `DURATION.YEAR`
+Access duration like this `DURATION.TODAY` `DURATION.TOMORROW` `DURATION.WEEK` `DURATION.YEAR`
 
 <b> Not calling above two function will throw IllegalArgumentExcetion() </b>
 
@@ -100,6 +103,13 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 <li>Practical Side of a Sunsign  </li>
 <li>Astrological Perspective of a Sunsign</li>
 </ul>
+  
+# Get It On Play Store
+[![alt-tag](https://user-images.githubusercontent.com/41512314/44625833-9305fb80-a92f-11e8-8bd4-c2d513c2e9e4.png)](https://play.google.com/store/apps/details?id=bot.box.horology)
+  
+# Credits  
+This java library is working on top of [Horoscope-API](https://github.com/tapasweni-pathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapasweni-pathak/)
+
 
 #   License  
 ![alt tag](https://img.shields.io/github/license/mashape/apistatus.svg)
