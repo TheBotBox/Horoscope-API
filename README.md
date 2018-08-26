@@ -59,7 +59,7 @@ Access all the zodiacs like this `SUNSIGN.ARIES` `SUNSIGN.TAURUS` `SUNSIGN.GEMIN
 `requestDuration(DURATION)`  
 Access duration like this `DURATION.TODAY` `DURATION.TOMORROW` `DURATION.WEEK` `DURATION.YEAR`
 
-<b> Not calling above two function will throw IllegalArgumentExcetion() </b>
+<b> Not calling above two function will throw IllegalStateException() </b>
 
 <b> Optional Functions</b>  
 `showLoader(boolean)` - pass `true` in param to displays a loader when fetching horoscope from server, by default its disable.   
