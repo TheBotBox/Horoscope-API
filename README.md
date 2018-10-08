@@ -1,4 +1,4 @@
-# Horoscope-API
+# Horoscope-API. [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=&via=the_botbox&hashtags=API,HOROSCOPE,android)
 Simple Java API to get the horoscope according to the sunsign.
 
 ![alt tag](https://user-images.githubusercontent.com/41512314/44621973-720cbe80-a8cd-11e8-80b3-a24b711dd1f4.png)
