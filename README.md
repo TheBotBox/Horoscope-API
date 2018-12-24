@@ -108,7 +108,7 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 [![alt-tag](https://user-images.githubusercontent.com/41512314/44625833-9305fb80-a92f-11e8-8bd4-c2d513c2e9e4.png)](https://play.google.com/store/apps/details?id=bot.box.horology)
   
 # Credits  
-This java library is working on top of [Horoscope-API](https://github.com/tapasweni-pathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapasweni-pathak/)
+This java library is working on top of [Horoscope-API](https://github.com/tapasweni-pathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapaswenipathak)
 
 
 #   License  
