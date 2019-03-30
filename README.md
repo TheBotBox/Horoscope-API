@@ -10,6 +10,7 @@ Simple Java API to get the horoscope according to the sunsign.
 **[API Usage](#api-usage)**  
 **[To-dos](#to-dos)**   
 **[Credits](#credits)**   
+**[Apps Using Horoscope Api](#apps-using-horoscope-api)**
 **[License](#license)**    
 
 # Features
@@ -104,7 +105,12 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 </ul>
   
 # Credits  
-This java library is working on top of [Horoscope-API](https://github.com/tapasweni-pathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapaswenipathak)
+This java library is working on top of [Horoscope-API](https://github.com/tapasweni-pathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapaswenipathak)   
+
+# Apps Using Horoscope Api   
+<a href="https://play.google.com/store/apps/details?id=bot.box.horology">
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="220">
+</a>
 
 
 #   License  
