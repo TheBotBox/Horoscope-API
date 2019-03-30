@@ -10,7 +10,7 @@ Simple Java API to get the horoscope according to the sunsign.
 **[API Usage](#api-usage)**  
 **[To-dos](#to-dos)**   
 **[Credits](#credits)**   
-**[Apps Using Horoscope Api](#apps-using-horoscope-api)**
+**[Apps Using Horoscope Api](#apps-using-horoscope-api)**   
 **[License](#license)**    
 
 # Features
