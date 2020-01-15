@@ -12,11 +12,11 @@ import java.lang.annotation.RetentionPolicy;
 
 public class DURATION {
     @Retention(RetentionPolicy.SOURCE)
-    @StringDef({TODAY, TOMORROW, WEEK, YEAR})
+    @StringDef({TODAY, WEEK, MONTH, YEAR})
 
     public @interface ANNOTE_DURATION {
     }
 
-    public static final String TODAY = "today", TOMORROW = "week", WEEK = "month", YEAR = "year";
+    public static final String TODAY = "today", WEEK = "week", MONTH = "month", YEAR = "year";
 
 }
