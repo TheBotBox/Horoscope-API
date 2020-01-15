@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import bot.box.horology.annotation.DURATION;
 import bot.box.horology.api.Horoscope;
 import bot.box.horology.delegate.Response;
 import bot.box.horology.pojo.Zodiac;
@@ -98,10 +99,32 @@ public class HorologyClient {
             super.onPostExecute(json);
             if (json != null && !json.isEmpty()) {
                 try {
+                    System.out.println("checking duration " + mHoroscope.getDate());
+
                     JSONObject object = new JSONObject(json);
-                    String date = object.getString("date");
+
                     String horoscope = object.getString("horoscope");
                     String sunsign = object.getString("sunsign");
+                    String date = "";
+                    switch (mHoroscope.getDate()) {
+                        case DURATION.TODAY:
+                            date = object.getString("date");
+                            break;
+
+                        case DURATION.WEEK:
+                            date = object.getString(DURATION.WEEK);
+                            break;
+
+                        case DURATION.MONTH:
+                            date = object.getString(DURATION.MONTH);
+                            break;
+
+                        case DURATION.YEAR:
+                            date = object.getString(DURATION.YEAR);
+                            break;
+                    }
+
+
                     Zodiac zodiac = new Zodiac(horoscope, date, sunsign);
 
                     mResponse.onResponseObtained(zodiac);
