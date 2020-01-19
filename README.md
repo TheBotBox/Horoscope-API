@@ -80,7 +80,7 @@ Horoscope hGemini = new Horoscope.Zodiac(MainActivity.this)
                         public void onResponseObtained(Zodiac zodiac) {
                            String horoscope = zodiac.getHoroscope();
                            String sunsign = zodiac.getSunSign();
-                           String date = getDate();
+                           String date = zodiac.getDate();
                         }
 
                         @Override
