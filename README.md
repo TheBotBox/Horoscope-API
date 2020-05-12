@@ -98,6 +98,7 @@ where, `String horoscpe` is the response from the server correspoding to the sun
 
 #   To-Dos
 <ul>
+<li>Conversion to kotlin  </li>  
 <li>Facts About a Sunsign  </li>
 <li>Practical Side of a Sunsign  </li>
 <li>Astrological Perspective of a Sunsign</li>
